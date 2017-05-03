@@ -157,6 +157,17 @@ class Citador {
 				};
 				break;
 			case 'en-US':
+			case 'en-GB':
+ +				stringLocal = {
+ +					startMsg: "Started",
+ +					quoteTooltip: "Quote",
+ +					deleteTooltip: "Delete",
+ +					noPermTooltip: "No permission to quote",
+ +					attachment: "Attachment"
+ +				};
+ +				break;
+ +			default:
+ +				this.log(`${navigator.language} is not supported by default.`, 'warn');
 				stringLocal = {
 					startMsg: "Started",
 					quoteTooltip: "Quote",
