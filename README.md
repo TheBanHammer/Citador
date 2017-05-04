@@ -1,6 +1,8 @@
 # Citador
 A plugin to facilitate quoting for a better conversation, without people being lost in the context :wink:
 
+Original plugin created by [Nirewen](https://github.com/nirewen/Citador) additional support added here.
+
 ## Features
 - Allows you to see the message that will be quoted
 - Allows you to delete a message you don't want to quote
