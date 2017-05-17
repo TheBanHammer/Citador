@@ -160,6 +160,16 @@ class Citador {
 				attachment: "Attachment"
 			};
 			break;
+		case 'fr-FR':
+		case 'fr':
+			stringLocal = {
+				startMsg: "Démarré",
+				quoteTooltip: "Citer",
+				deleteTooltip: "Supprimer",
+				noPermTooltip: "Pas la permission de citer",
+				attachment: "Fichier joint"
+			};
+			break;
 		default:
 			this.log(`${navigator.language} is not supported by default.`, 'warn');
 			stringLocal = {
